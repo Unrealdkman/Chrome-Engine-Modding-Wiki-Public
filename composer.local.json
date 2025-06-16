@@ -1,0 +1,17 @@
+{
+    "require": {
+        "mediawiki/semantic-media-wiki": "^5.0"
+    },
+    "extra": {
+        "merge-plugin": {
+            "include": [
+                "extensions/AbuseFilter/composer.json"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
